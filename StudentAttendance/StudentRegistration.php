@@ -49,6 +49,8 @@ $mGaurdinan_Phone="9855t789";
  $name="hi heloo";
 
 
+// Registering the details of the student any user also similer way 
+
  if($name == '' )
  
 			{echo 'please fill all values'; }
