@@ -1,8 +1,8 @@
 <?php 
  // if($_SERVER['REQUEST_METHOD']=='POST'){
  //Getting values 
-$emaill= $_POST['email'];
-$passwordd = $_POST['password'];
+//$emaill= $_POST['email'];
+//$passwordd = $_POST['password'];
 
 $emaill= "email";
 $passwordd = "Password";
