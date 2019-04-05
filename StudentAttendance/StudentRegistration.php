@@ -49,7 +49,7 @@ $mGaurdinan_Phone="9855t789";
  $name="hi heloo";
 
 
-// Registering the details of the student any user also similer way 
+// Registering the details of the student, if  any user also similer way 
 
  if($name == '' )
  
