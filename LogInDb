@@ -1,0 +1,35 @@
+<?php 
+ // if($_SERVER['REQUEST_METHOD']=='POST'){
+ //Getting values 
+$emaill= $_POST['email'];
+$passwordd = $_POST['password'];
+
+$emaill= "email";
+$passwordd = "Password";
+
+  require_once('init.php');
+ //Creating sql query
+ $sql = "SELECT * FROM user_info WHERE EMAILID='$emaill' AND PASSWORD='$passwordd'";
+ //importing dbConnect.php script 
+
+ //executing query
+ $result = mysqli_query($con,$sql); 
+ //fetching result
+ $check = mysqli_fetch_array($result);
+ //if we got some result 
+ if(isset($check)){
+ //displaying success 
+ echo "11";
+ }
+ else{
+ //displaying failure
+ echo "403";
+ }
+ 	mysqli_close($con);
+ }
+ // else 
+ // {
+ // 	echo "404";
+ // }
+ ?>
+ 
