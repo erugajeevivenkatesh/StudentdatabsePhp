@@ -1,5 +1,9 @@
 <?php
 
+
+// 
+Checking the COnnection with databse this file should be mandator
+
 $servername = "127.0.0.1";
 $database = "student";
 $username = "root";
